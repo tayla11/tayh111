@@ -9,11 +9,31 @@
     </head>
     <body>
        <header class="cabeçalho">
-          <span class="cabeçalho__manu-hamburguer">
-          <img src="Logo.png" alt="Logo da Alurabooks">
-          <a href="#"><img src="Vector (1).png" alt="Meus Favoritos"></a>
-          <a href="#"><img src="Frame 98.png" alt="Carrinho de Compras"></a>
-          <a href="#"><img src="Vector.png" alt="Meu Perfil"></a>
+         <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+         <span class="cabeçalho__manu-hamburguer container__imagem"></span>
+         </label>
+         <ul class="lita-menu">
+            <li class="lita-menu__titulo">Categorias</li>
+            <li class="lita-menu__item"><a href="#" class="lita-menu__link">Programação</a>
+            </li>
+            <li class="lita-menu__item"><a href="#" class="lita-menu__link">Front-end</a>
+            </li>
+            <li class="lita-menu__item"><a href="#" class="lita-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lita-menu__item"><a href="#" class="lita-menu__link">Business</a>
+            </li>
+            <li class="lita-menu__item"><a href="#" class="lita-menu__link">Desing & UX</a>
+            </li>
+         </ul>
+          <img src="Logo.png" alt="Logo da Alurabooks" class="container__imagem">
+         </div>
+         <div class="container">
+          <a href="#"><img src="Vector (1).png" alt="Meus Favoritos" class="container__imagem"></a>
+          <a href="#"><img src="Frame 98.png" alt="Carrinho de Compras" class="container__imagem"></a>
+          <a href="#"><img src="Vector.png" alt="Meu Perfil" class="container__imagem"></a>
+         </div>
        </header>
     </body>
 
