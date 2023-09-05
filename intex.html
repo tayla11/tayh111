@@ -8,7 +8,11 @@
        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="styles.css">
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="styles.css">
     </head>
     <body>
        <header class="cabeçalho">
@@ -42,6 +46,35 @@
          <h2 class="banner__titulo">Já sabe por onde começar?</h2>
          <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
          <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+       </section>
+       <section class="carrossel">
+         <h2 class="carrossel__titulo">Novos lançamentos</h2>
+         <!-- Slider main container -->
+<div class="swiper">
+   <!-- Additional required wrapper -->
+   <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide"><img src="ApacheKafka.svg" alt="Livro sobre apeche kafka e spring da alura books"></div>
+     <div class="swiper-slide"><img src="Liderança.svg" alt="Livro sobre liderança em disign da alura books"></div>
+     <div class="swiper-slide"><img src="Javascript.svg" alt="Livro sobre Javascript assertivo da alura books"></div>
+     <div class="swiper-slide"><img src="Guia Front-end.svg" alt="Livro Guia front-end"></div>
+     <div class="swiper-slide"><img src="Portugol.svg" alt="Livro sobre portugol"></div>
+     <div class="swiper-slide"><img src="Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+     ...
+   </div>
+   <!-- If we need pagination -->
+   <div class="swiper-pagination"></div>
+ 
+   <!-- If we need navigation buttons -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+ 
+   <!-- If we need scrollbar -->
+   <div class="swiper-scrollbar"></div>
+ </div>
+       </section>
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     </body>
 
 </html>
