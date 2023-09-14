@@ -28,6 +28,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw
 }
 
 .container__botao:checked ~ .lita-menu {
@@ -42,9 +43,15 @@
 
 .lita-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lita-menu__link {
-    background-color: var(--azul-degrade)
+    background: var(--azul-degrade)
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
 
